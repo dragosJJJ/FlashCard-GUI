@@ -13,7 +13,6 @@ except FileNotFoundError:
 else:
     data = data.to_dict(orient="records")
 
-#----- FLIP CARD -----#
 def flip_card():
     canvas.itemconfig(bg_img, image= back_img)
     canvas.itemconfig(title, fill= "white", text="English")
